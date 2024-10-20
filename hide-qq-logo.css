@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           Hide QQ LOGO
+@description    隐藏 QQ 左上角和空屏时的 LOGO 与新功能介绍
+@preprocessor   transitio
+@version        0.1.0
+@license     	  gpl-3.0
+==/UserStyle== */
+.qq-logo,
+div.q-empty-page-img > svg,
+.ad-wrapper {
+  display: none !important;
+}

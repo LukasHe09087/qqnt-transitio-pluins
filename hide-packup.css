@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name           Hide Packup
+@description    隐藏右上角的收起按钮
+@preprocessor   transitio
+@version        0.1.0
+@license       	gpl-3.0
+==/UserStyle== */
+.window-control-area > div:not(.window-control-area__btn) {
+  display: none;
+}

@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name           Hide Message Fulltime
+@description    隐藏消息的完整时间提示
+@preprocessor   transitio
+@version        0.1.0
+@license     	  gpl-3.0
+==/UserStyle== */
+.message-container > .only-time,
+.user-name > .send-time {
+  display: none !important;
+}
